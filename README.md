@@ -1,18 +1,18 @@
-# asdf-python
+![CI](https://github.com/team-gary/asdf-python/workflows/CI/badge.svg)
 
-[![Build Status](https://travis-ci.org/danhper/asdf-python.svg?branch=master)](https://travis-ci.org/danhper/asdf-python)
+# asdf-python
 
 Python plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
 ## Install
 
 ```
-asdf plugin-add python
+asdf plugin-add python https://github.com/team-gary/asdf-python
 ```
 
 ## Use
 
-Check [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to install & manage versions of Python.
+Check out the [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to install and manage versions.
 Please make sure you have the required [system dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment) installed before trying to install Python.
 
 Under the hood, asdf-python uses [python-build](https://github.com/yyuu/pyenv/tree/master/plugins/python-build)
@@ -56,3 +56,11 @@ asdf-python can automatically install a default set of Python packages with pip 
 ansible
 pipenv
 ```
+
+## Credits
+
+All credits to https://github.com/danhper/asdf-python
+
+## License
+MIT License
+
